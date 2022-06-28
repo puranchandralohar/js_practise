@@ -73,19 +73,29 @@
 // fibbo(0,1,1)
 
 // Using For loop
-let a=0;
-let b=1;
-let c;  
+// let a=0;
+// let b=1;
+// let c;  
 
-for(i=1;i<=10;i++){
-    c = a + b;
-    console.log(c);
-    a = b;
-    b = c;
-}
-
-
-
+// for(i=1;i<=10;i++){
+//     c = a + b;
+//     console.log(c);
+//     a = b;
+//     b = c;
+// }
 
 //***********************************************************/
 
+// print count digits of a number
+
+let num = parseInt(process.argv[2]);
+let digit;
+let count = 0;
+while(num!=0){
+    digit = num%10;
+    num = Math.floor(num/10);
+    if(digit % 2 ==0){
+        count++
+    }
+}
+console.log(count);
