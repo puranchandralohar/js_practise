@@ -47,25 +47,19 @@
 // 3 2
 // 3 3
 /**************************************************************/
-
-
-
-
-
-
-
 // print pattern
 // 111
 // 222
 // 333
 
 // for(let i=1; i<=3;i++){
-//     let stars = "";
-//     for(let j=1;j<=3;j++){
+//     let stars="";  //that codes "" make it string;
+//     for(let j=1;j<=3;j++){  
 //         stars+=i;
 //     }
 //     console.log(stars);
-// }
+//     console.log(typeof(stars));
+//}
 //***********************************************/
 
 // pattern
@@ -96,7 +90,60 @@
 //     console.log(stars);
 // }
 
+/*********************************************************/
 // print pattern
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+
+// for(let i=1;i<=6;i++){
+//     let stars="";
+//     for(let j=1;j<=i;j++){
+//         stars = stars + "*";
+//     }
+//     console.log(stars);
+// }
+
+/***************************************************************/
+// Print Pattern
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+// for(let i=1;i<=5;i++){
+//     let pattern="";
+//     for(let j=1;j<=i;j++){
+//         pattern = pattern+ j;
+//     }
+//     console.log(pattern);
+// }
+
+/*******************************************************/
+
+// Print Pattern
+// 1
+// 22
+// 333
+// 4444
+// 55555
+
+// for(let i=1;i<=5;i++){
+//     let pattern="";
+//     for(let j=1;j<=i;j++){
+//         pattern = pattern+ i;
+//     }
+//     console.log(pattern);
+// }
+
+
+
+
+
 
 
 
