@@ -49,16 +49,19 @@
 /***************************************************************/
 // Q.NO-4
 
-let firstNum = 0;
-let secondNum = 1;
+// let firstNum = 0;
+// let secondNum = 1;
 
-for(let i=firstNum;i<=5;i++){
-    let pattern = " "
-    for (let j=1;j<=i;j++){
-        let nextNum = firstNum+ secondNum;
-        pattern = pattern + ` ${firstNum}`;
-        firstNum = secondNum;
-        secondNum = nextNum;
-    }
-    console.log(pattern);
-}
+// for(let i=firstNum;i<=5;i++){
+//     let pattern = " "
+//     for (let j=1;j<=i;j++){
+//         let nextNum = firstNum+ secondNum;
+//         pattern = pattern + ` ${firstNum}`;
+//         firstNum = secondNum;
+//         secondNum = nextNum;
+//     }
+//     console.log(pattern);
+// }
+
+/*************************************************************/
+// Q.No-5
