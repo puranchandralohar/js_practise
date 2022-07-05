@@ -13,10 +13,10 @@
  /*************************************************************/   
 // Return the first Element in an array
 
-    // function getFirst(arr){
-    //     return arr[0];
+    function getFirst(arr){
+        return arr[0];
 
-    // }
-    // let first = getFirst(10,20,30,40,50);
-    // console.log(first);
+    }
+    let first = getFirst([10,20,5,9]);
+    console.log(first);
 
