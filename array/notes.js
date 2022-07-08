@@ -21,3 +21,14 @@ console.log(length);
 let newCities = cities.sort();
 console.log(newCities);
 
+
+//Shift() method is used to remove elements from beginning;
+let players = ["Sachin", "Dravid", "Ganguly","MahiBhai","Virat"];
+players.shift();
+console.log(players);
+
+//unshift() method is used to add elements to the beginning;
+players.unshift("Rohit");
+console.log(players);
+
+
