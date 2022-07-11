@@ -32,10 +32,19 @@
 // console.log(arr1);
 // console.log(newArray);
 
-//indexof
-let names = ["Aman", "Sohan", "Ronit", "Ram","Krishna"];
+//indexof and lastindexof
+// let names = ["Aman", "Sohan", "Ronit", "Ram","Krishna","Ram","Shiva","Ram"];
 
-console.log(names.indexOf("Ram"))
+// console.log(names.indexOf("Ram"),names.lastIndexOf("Geeta"))
+
+//if the element is not in the array , their default index will be -1;
+//in the above case index of Geeta is -1;
+
+//toString
+//it is used to convert an array to a string;
+// let str = [1,2,3,4];
+
+// console.log(str.toString());
 
 
 
