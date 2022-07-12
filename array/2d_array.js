@@ -17,9 +17,27 @@ let arr = [
 
 //access all the elements;
 
-for(let i = 0 ; i<arr.length; i++){
-    for(let j = 0 ; j<arr[i].length; j++){
-        console.log(arr[i]);
-        break;
+// for(let i = 0 ; i<arr.length; i++){
+//     for(let j = 0 ; j<arr[i].length; j++){
+//         console.log(arr[i]);
+//         break;
+//     }
+// }
+
+//Adding elemets to an array;
+// arr.push([15,10,14])
+
+// for(let i=0; i<arr.length;i++){
+//     console.log(arr[i]+" ")
+// }
+
+//Sum of all the elements in an array;
+
+let sum = 0;
+
+for(let i = 0; i<arr.length; i++){
+    for(j = 0; j<arr[i].length; j++){
+        sum+= arr[i][j]
     }
 }
+console.log(sum);
