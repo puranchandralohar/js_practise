@@ -30,7 +30,13 @@
 //     console.log(arr[i]+" ")
 // }
 
-//Sum of all the elements in an array;
+// Sum of all the elements in an array;
+
+// let arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
 
 // let sum = 0;
 
@@ -41,7 +47,16 @@
 // }
 // console.log(sum);
 
-//---->
+//Sum all the diagonal (left to right) elements in an array
+
+// let arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
+
+// let sum = 0;
+
 // let rows = arr.length;
 // let start =0;
 // for(let i = 0; i<rows; i++,start++){
@@ -49,6 +64,16 @@
 
 // }
 // console.log(sum);
+
+//-->Sum all the diagonal elements in an array (right to left).
+
+// let arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [20,8,9]
+// ]
+
+// let sum = 0;
 
 // let rows = arr.length;
 // let start =arr[0].length - 1;
@@ -60,7 +85,8 @@
 // }
 // console.log(sum);
 
-// //printing 1,2,3,4,8,7,6,5,9,10,11,12,16,15,14,13
+//-->print this format -  1,2,3,4,8,7,6,5,9,10,11,12,16,15,14,13
+
 // let arr1 = [
 //     [1,2,3,4],
 //     [5,6,7,8],
