@@ -47,5 +47,9 @@ fname[0] = 'S';
 
 console.log(fname); // Ramesh
 
+let array = [1,2,3,4];
+ let array1 = [5,6,7,8]
 
+ console.log(array,array1);
+ console.log(...array,...array1);
 
