@@ -32,6 +32,7 @@
 
 // Sum of all the elements in an array;
 
+
 // let arr = [
 //     [1,2,3],
 //     [4,5,6],
@@ -109,3 +110,41 @@
 //     }
 // }
 // }
+
+// -->Print this format -- 7,8,9,6,3,2,1,4,5
+// let arr2 = [
+//     [7,8,9],
+//     [4,5,6],
+//     [1,2,3]
+// ]
+
+
+
+
+
+
+
+// let rows = square.length;
+
+// let sq=[];
+
+// for(let i=0;i<rows; i++){
+    //     for(let j=0;j<square[i].length;j++){
+//         sq.push(square[i][j]**2)
+//     }
+// }
+// console.log(sq);
+let square = [
+    [1,2],
+    [2,4,5],
+    [7,8]
+]
+
+let sq = square.map(myfunction);
+
+function myfunction(ele){
+    return ele.reduce((total,val)=>{
+        return total + val**2;
+    })
+}
+console.log(sq);
