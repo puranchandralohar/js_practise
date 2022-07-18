@@ -42,3 +42,31 @@
 
 // let x = createCircle(12);
 // console.log(x.radius, x.draw());
+
+
+// let person = {
+
+//     fname: "Puran",
+//     job: "Developer",
+//     place: "Dhanbad"
+// };
+
+// console.log(person.fname,person['job']);
+
+function CreatePerson(name,job,add){
+    return {
+        fname:name,
+        job:job,
+        address:add
+    };
+}
+let firstPerson = CreatePerson("Puran","Coder","Dhanbad");
+console.log(firstPerson.fname)
+
+
+
+
+
+
+
+
