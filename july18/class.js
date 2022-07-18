@@ -15,16 +15,30 @@
 // console.log(circle["location"]["y"]);
 
 
-function createCircle(){
+// function createCircle(){
 
-    let p = {
-        radius:2,
-        draw:function(){
-            return 'Draw Circle'
-        }
-    }
-    return p;
-}
+//     let p = {
+//         radius:2,
+//         draw:function(){
+//             return 'Draw Circle'
+//         }
+//     }
+//     return p;
+// }
 
-let x = createCircle();
-console.log(x.radius, x.draw());
+// let x = createCircle();
+// console.log(x.radius, x.draw());
+
+// function createCircle(r){
+
+//     let p = {
+//         radius:r,
+//         draw:function(){
+//             return 'Draw Circle'
+//         }
+//     }
+//     return p;
+// }
+
+// let x = createCircle(12);
+// console.log(x.radius, x.draw());
