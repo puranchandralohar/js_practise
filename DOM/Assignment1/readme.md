@@ -10,5 +10,6 @@
 </ul>
 
 <h4>Preview</h4>
-<img src = "./js practice/DOM/Assignment1/images/output.png">
+<img src = "/js practice/DOM/Assignment1/images/output.png">
+
 
