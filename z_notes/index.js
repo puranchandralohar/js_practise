@@ -79,3 +79,53 @@ and dynamic web pages.
 
 // let arr = [[1,2,3,4],[],[5,6],["A","B"]]
 // console.log(flateddArray(arr));
+
+
+// another method -
+// let arr1 = [[1,2,3],[4,5],[],[7],["Puran",1]];
+
+// let flatenArr = [].concat(...arr1);
+
+// console.log(flatenArr);
+
+// Event loop
+
+// example
+
+// console.log("Hi");
+
+// setTimeout(()=>{
+//     console.log("Nice to Meet You");
+// },0)
+
+// console.log("Bye")
+
+//IIFE function
+
+// (function (a,b){
+//     console.log(a+b)
+// })(10,5)
+
+
+//deep copy and shallow copy
+// let arr = [1,2,3]
+// let arr1 = [...arr];
+// arr1[0]=5;
+
+// console.log(arr1);
+// console.log(arr);
+
+// let arr = [1,5,8,0];
+
+// target = 10;
+// function findElement(){
+//     for(let i =0 ;i<arr.length;i++){
+//         if(arr[i]==target){
+//             return true;
+//         }
+//         else{
+//             return false;
+//         }
+//     }
+// }
+// console.log(findElement());
