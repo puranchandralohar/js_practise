@@ -32,16 +32,16 @@
 
 //Reverse each word in a sentence..
 
-// let news = 'India won the world cup';
+let news = 'India won the world cup';
 
-// let newsArray = news.split(" ");
-// console.log(newsArray);
+let newsArray = news.split(" ");
+console.log(newsArray);
 
-// for(let  i=0; i<newsArray.length;i++){
-//     newsArray[i] = newsArray[i].split("").reverse().join("");
+for(let  i=0; i<newsArray.length;i++){
+    newsArray[i] = newsArray[i].split("").reverse().join("");
 
-// }
-// console.log(newsArray);
+}
+console.log(newsArray);
 
 //Rotating the String---
 
