@@ -129,3 +129,12 @@ and dynamic web pages.
 //     }
 // }
 // console.log(findElement());
+
+
+//Array Destructing
+
+// let arr = ["Puran","Aman","Saourav","Pawan","Anurag","Santanu"];
+
+// [a,b,...c] = arr;
+
+// console.log(a , c);
