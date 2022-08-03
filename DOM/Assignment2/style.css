@@ -10,6 +10,12 @@
    
 }
 
+.alertMsg{
+    text-align:center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
 form{
     display: flex;
     background-color: #000000cc;
@@ -33,6 +39,14 @@ form{
     border:none;
 }
 
+#rm-btn{
+    padding:10px;
+    background-color: #f34848;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+
 table{
     width: 100%;
 }
@@ -41,6 +55,7 @@ table th{
     background-color: #7cb12c;
 }
 table td{
+    text-align: center;
     padding: 10px;
     background-color: #d0e6e6;
 }
