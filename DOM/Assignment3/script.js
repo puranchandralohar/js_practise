@@ -16,6 +16,9 @@ buttons.map((btn)=>{
         }else if(key=="√"){
             display.innerText = Math.sqrt(display.innerText);
 
+        }else if(key=="x²"){
+            display.innerText = display.innerText ** 2;
+
         }
         else if(key=='='){
             display.innerText = eval(display.innerText);
