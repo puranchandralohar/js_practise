@@ -7,4 +7,4 @@
 
 <h4>Preview</h4>
 
-<img src = "\DOM\Assignment3\images\output.PNG">
+<img src = "/DOM/Assignment3/images/output.PNG">
