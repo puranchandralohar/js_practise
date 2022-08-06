@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: center ;
+}
+
+.content{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    background-color: cadetblue;
+    width:400px;
+    height:400px;
+    margin: 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.rule{
+    border-bottom: 4px solid #240202;
+    margin: 10px 0;
+}
+
+.list label{
+    padding: 10px;
+}
