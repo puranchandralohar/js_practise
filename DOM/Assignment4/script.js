@@ -55,5 +55,21 @@ function additem(e){
             e.target.parentElement.parentElement.removeChild(listItem);
         });
 
+        
+
+        let checkbox = document.getElementById("check");
+
+        function clicked(e){
+          if(e.target.checked == true){
+            e.target.parentElement.parentElement.removeChild(listItem);
+            complete.append(checkbox);
+            complete.append(label);
+
+          }
+          
+        }
+        checkbox.addEventListener('click', clicked);
+    
+
     }
 }
