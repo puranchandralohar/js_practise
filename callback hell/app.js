@@ -27,13 +27,52 @@
 
 //Promises
 
-let momsPromise = new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-        resolve('collected all golds');
-        reject('killed by adheera')
-    },5000)
-});
+// let momsPromise = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve('collected all golds');
+//         reject('killed by adheera')
+//     },5000)
+// });
 
-momsPromise
-    .then((result) => console.log('Climax',result))
-    .catch((error)=>console.log(error));
+// momsPromise
+//     .then((result) => console.log('Climax',result))
+//     .catch((error)=>console.log(error));
+
+//Promises - part 2
+
+// entering into the hotel , 
+// order items , 
+// preprtion of food in kitchen,
+// serve delivering food to the table,
+// start eating food,
+// paying the bill,
+// leaving the hotel
+
+function prepration(callback){
+    setTimeout(()=>{
+        console.log('preparing food');
+        console.log('server deliver food to the table');
+        callback()
+    },3000)
+
+}
+
+function eatingFood(){
+    setTimeout(()=>{
+        console.log('Eating my meal');
+        console.log('Paying Bills');
+        console.log('Leaving Hotel');
+    },2000);
+
+}
+
+
+function dinnerScenario(){
+
+    console.log('entering into the hotel');
+    console.log('Ordering Masala Dosa');
+    console.log('server informing the chef to prepre food');
+    prepration(eatingFood);
+}
+
+dinnerScenario();
