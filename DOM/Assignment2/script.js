@@ -1,4 +1,5 @@
 let form = document.querySelector("form");
+console.log(form);
 
 let userName = document.querySelector(".user_name");
 let email = document.querySelector(".user_email");
@@ -12,6 +13,8 @@ let msgBox = document.querySelector(".alertMsg");
 let tbody = document.querySelector("tbody");
 
 form.addEventListener("submit", (e) => {
+  // console.log(e.target);
+
   e.preventDefault();
   if (!userName.value || !email.value || !phone.value) {
     msgBox.innerText = "Empty Input Field(s)";
@@ -30,16 +33,19 @@ form.addEventListener("submit", (e) => {
     <td>${userName.value}</td>
     <td>${email.value}</td>
     <td>${phone.value}</td>
-    <td><input type="button" id="rm-btn" value="Remove" onclick="removeData()"></td></tr>`;
+    <td><input type="button" id="rm-btn" value="Remove" onclick="removeData()"></td>
+    </tr>`;
 
   }
 });
 
 
 function removeData(){
+
   document.querySelector("#rm-btn").closest("tr").remove();
+  msgBox.innerText= "Item deleted successfully"
   setTimeout(() => {
-    msgBox.innerText = "Item deleted successfully";
+    msgBox.innerText = "";
     msgBox.style.color = "red";
   }, 2000);
 }

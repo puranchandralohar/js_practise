@@ -128,7 +128,7 @@ function dinnerScenario(){
     console.log('server informing the chef to prepre food');
     prepration()
     .then(()=>{
-        console.log('food preparing and delievering => Successfully');
+        console.log('food preparing and delievering =>  Successfully');
         return eatingFood();
     })
     .then(()=>{
