@@ -50,21 +50,24 @@
 
 const numbers = [1,-1,2,3];
 
-const filtered = numbers.filter(n=> n>=0);
+// const filtered = numbers.filter(n=> n>=0);
 
-console.log(numbers);
-console.log(filtered);
+// console.log(numbers);
+// console.log(filtered);
 
-const items = filtered.map(n => n*n)
-console.log(items);
+// const items = filtered.map(n => n*n)
+// console.log(items);
 
-const itemsAsObject  = filtered.map(n=> {
-    let obj = { value : n }
-    return obj;
-})
+// const itemsAsObject  = filtered.map(n=> {
+//     let obj = { value : n }
+//     return obj;
+// })
 
-console.log(itemsAsObject);
+// console.log(itemsAsObject);
 
+const filterArray = numbers.filter(n => n>=1).map(n=>({value:n*2}));
+
+console.log(filterArray)
 
 
 
