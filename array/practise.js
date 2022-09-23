@@ -48,7 +48,7 @@
 
 //map and filter
 
-const numbers = [1,-1,2,3];
+// const numbers = [1,-1,2,3];
 
 // const filtered = numbers.filter(n=> n>=0);
 
@@ -65,10 +65,22 @@ const numbers = [1,-1,2,3];
 
 // console.log(itemsAsObject);
 
-const filterArray = numbers.filter(n => n>=1).map(n=>({value:n*2}));
+// const filterArray = numbers.filter(n => n>=1).map(n=>({value:n*2}));
 
-console.log(filterArray)
+// console.log(filterArray)
 
+// ###############################################################################
+
+// Array at()method 
+// -- returns element of an array by an index.
+
+let arr = [4,5,6,7,8,12]
+
+console.log(arr.at(1));
+
+let words = ["My", "Name", "is","Puran"];
+
+console.log(words.at(3))
 
 
 
