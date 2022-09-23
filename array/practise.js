@@ -46,8 +46,10 @@
 
 // console.log(str.toString());
 
-//map and filter
 
+// #####################################################################
+
+//map and filter
 // const numbers = [1,-1,2,3];
 
 // const filtered = numbers.filter(n=> n>=0);
@@ -74,13 +76,28 @@
 // Array at()method 
 // -- returns element of an array by an index.
 
-let arr = [4,5,6,7,8,12]
+// let arr = [4,5,6,7,8,12]
 
-console.log(arr.at(1));
+// console.log(arr.at(1));
 
-let words = ["My", "Name", "is","Puran"];
+// let words = ["My", "Name", "is","Puran"];
 
-console.log(words.at(3))
+// console.log(words.at(3))
+
+// ##############################################################################
+
+// Spread Operator
+
+// const arr = [1,2,3,4,5,6];
+// console.log(arr)
+// console.log(...arr)
+
+// const names = ["My","Name","is","Puran","Chandra"];
+
+// console.log(names);
+// console.log(...names);
+
+
 
 
 
