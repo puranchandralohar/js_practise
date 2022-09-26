@@ -16,5 +16,4 @@ let string = "banana";
 
 let arr = string.split("");
 
-let obj = {}
 
