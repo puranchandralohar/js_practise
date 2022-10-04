@@ -2,13 +2,13 @@
 // return true if the two arrays represent the same string, 
 // and false otherwise.
 
-function isSameString(word1,word2){
+// function isSameString(word1,word2){
 
-    return word1.join("") === word2.join("");
-}
+//     return word1.join("") === word2.join("");
+// }
 
-let result = isSameString(["ab","cd"],["a","bcd"]);
-console.log(result)
+// let result = isSameString(["ab","cd"],["a","bcd"]);
+// console.log(result)
 
 // ************************************************
 
@@ -16,9 +16,11 @@ console.log(result)
 // return the string after replacing 
 // every uppercase letter with the same lowercase letter.
 
-function toLowerCase(s){
-    return s.toLowerCase();
-}
+// function toLowerCase(s){
+//     return s.toLowerCase();
+// }
 
-console.log(toLowerCase('HELLO'));
+// console.log(toLowerCase('HELLO'));
+
+// ***************************************************
 
