@@ -97,6 +97,18 @@
 // console.log(names);
 // console.log(...names);
 
+// ##################################################################
+
+// Converting Array to an Object
+
+// let arr = ["Aman","Puja","Lilly","Sarah","Ronaldo","Kelly"];
+
+// let obj = {...arr};
+
+// console.log(obj);
+
+
+
 
 
 
