@@ -1,15 +1,34 @@
-// Call, Apply and Bind
+// Call, Apply and Bind ->>>  Function Borrowing Methods.
 
 
 const person1 = {
     name:"Puran",
     age:"26",
     location:"Dhanbad",
-    printDetails(){
-        return this.name
-    }
+    // printDetails:function(){
+    //    console.log(this.name);
+    // }
 }
 
-const result =  person1.printDetails()
+// person1.printDetails()
 
-console.log("Result >>>>", result)
+const person2 = {
+    name:"Ajay",
+    age:"25",
+    location:"Ranchi",
+}
+
+// person1.printDetails.call(person2)
+
+// const getDetails =()=>{
+//     console.log()
+// }
+
+// const getDetails = function(){
+//     console.log(this)
+// }
+
+getDetails.call(person1.name)
+getDetails.call(person2.age)
+
+
