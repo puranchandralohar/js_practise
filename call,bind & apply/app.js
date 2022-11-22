@@ -20,15 +20,21 @@ const person2 = {
 
 // person1.printDetails.call(person2)
 
-// const getDetails =()=>{
-//     console.log()
-// }
-
 const getDetails = function(designation){
     console.log(this.name,"is working as a", designation)
 }
 
-getDetails.call(person1,"FrontEnd Engineer")
-getDetails.call(person2,"Tester")
+// getDetails.call(person1,"FrontEnd Engineer")
+// getDetails.call(person2,"Tester")
+
+// In apply , we pass arrays as an argument
+// getDetails.apply(person2,["Senior Developer"])
+
+
+
+// Bind does the same as call , but we can store it in a variable.
+const man = getDetails.bind(person2,"Graphics Designer")
+man()
+
 
 
