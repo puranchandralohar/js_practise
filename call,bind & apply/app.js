@@ -3,7 +3,7 @@
 
 const person1 = {
     name:"Puran",
-    age:"26",
+    age:26,
     location:"Dhanbad",
     // printDetails:function(){
     //    console.log(this.name);
@@ -14,7 +14,7 @@ const person1 = {
 
 const person2 = {
     name:"Ajay",
-    age:"25",
+    age:25,
     location:"Ranchi",
 }
 
@@ -24,11 +24,11 @@ const person2 = {
 //     console.log()
 // }
 
-// const getDetails = function(){
-//     console.log(this)
-// }
+const getDetails = function(designation){
+    console.log(this.name,"is working as a", designation)
+}
 
-getDetails.call(person1.name)
-getDetails.call(person2.age)
+getDetails.call(person1,"FrontEnd Engineer")
+getDetails.call(person2,"Tester")
 
 
