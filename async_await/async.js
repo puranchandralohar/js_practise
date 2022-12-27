@@ -1,35 +1,13 @@
-// Synchronous
+// async function f1(){
+//     return 1
+// }
 
-// console.log("I");
-// console.log("eat");
-// console.log("ice cream");
-// console.log("with a");
-// console.log("spoon");
+// f1().then(alert)
 
 
-// Asyncronous
+async function f2(){
+    return Promise.resolve("Hello")
 
-// console.log("I");
-// console.log("eat");
-// setTimeout(()=>{
-//    console.log(('ice cream'));
-// },4000)
-
-// console.log("with a");
-// console.log("spoon");
-
-
-
-
-// Callback - Calling a function inside another function
-
-function one(call_two){
-    call_two()
-    console.log("step 1 complete. please call step 2");
 }
 
-function two(){
-    console.log("Step 2");
-}
-one(two);
-
+f2().then(alert)
