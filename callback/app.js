@@ -14,4 +14,4 @@ function sub(n1,n2){
 }
 
 calculator("Addition is ",()=>add(4,5));
-calculator("subtraction",sub)
+calculator("subtraction",()=>sub(10,5))
