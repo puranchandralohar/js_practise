@@ -98,3 +98,38 @@
 // })
 
 // console.log('end');
+
+//////////////////////////////////////////////////////////////
+
+// console.log('start')
+
+// const fn = () => (new Promise((resolve, reject) => {
+//   console.log(1);
+//   resolve('success')
+// }))
+
+// console.log('middle')
+
+// fn().then(res => {
+//   console.log(res)
+// })
+
+// console.log('end')
+
+// output - start,middle,1,end, success
+/////////////////////////////////////////////////////////
+
+// console.log('start')
+
+// Promise.resolve(1).then((res) => {
+//   console.log(res)
+// })
+
+// Promise.resolve(2).then((res) => {
+//   console.log(res)
+// })
+
+// console.log('end')
+
+// op -- start, end, 1, 2
+////////////////////////////////////////////////////
