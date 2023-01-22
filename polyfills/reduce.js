@@ -1,7 +1,12 @@
 
-let arr = [4,5,6,3,2]
+let arr = [4,5,6,7,8]
 
 Array.prototype.myReduce = function(callback,initialValue){
+
+    //if the array is empty, it should throw an error
+    if(this.length == 0){
+        throw new TypeError("Reduce of empty array with no initial value")
+    }
 
     let previousValue = initialValue;
 
